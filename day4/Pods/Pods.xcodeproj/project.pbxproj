@@ -1,0 +1,1164 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041DA33F5CB39096E4E389B2BDCB703F /* Pods-day4Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A18BF8077260B11FF7F1500D09BD41 /* Pods-day4Tests-dummy.m */; };
+		052F14843D27CBEE7866176CD826110D /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C43B5FD4B7AC41203AE6D4AB20051855 /* SnapKit-dummy.m */; };
+		06FFE113B8E333BF74680FD61C72883E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		09A4729224EC35B8B5572E1895466E57 /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D3DFC1F1FF533791CA738ED1FC51D /* FontAwesome.swift */; };
+		0B4B0BD0CF07F7C0BA322EA11B54D01A /* Pods-day4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD341F32599E898DA1E9B8F8E171899 /* Pods-day4-dummy.m */; };
+		0DB07B30F3E7613419836ED39E91AE28 /* Pods-day4UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4871097F3BAAE25CB65BC02B6EE0F283 /* Pods-day4UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1835867AA91C89D7800B5F6976AD3A71 /* Pods-day4Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FDD2C1618CDBB436C220B00313DBE9 /* Pods-day4Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB56E2421BC6086EDC144B3E15B3890 /* Pods-day4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 911D9D3A4987CE3834CC79D9B3053B8A /* Pods-day4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		353BE95645649B688456562FB5648E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		406D2FE74595036EA3ED23C7322A2287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		5430F07F99B4BFAD07F42F431B4875D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		676391FE342116754B9F940E9EF8C5CA /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878678AFB92DA5CC73858047EFB91417 /* ConstraintDescription.swift */; };
+		68FE7FA5D4B26609C54A620A749E16E6 /* FontAwesome.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 573B085480775423CBC0BF7D9BB0EAED /* FontAwesome.swift-dummy.m */; };
+		6A706C24B6C49B82FA582D8A83BA8521 /* FontAwesome.swift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6ECE9F9A4AC4AB0080BC626761F79CE2 /* FontAwesome.swift.bundle */; };
+		82932E85B51AEAD8C9F0447E769FC3FE /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F6A00A0DBA65B0E6B3AB9088F7F172 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FA24C95F14AF31517EC46E88FA98C9 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F7C771F78F4347903AE52021E1BF9F /* ConstraintRelation.swift */; };
+		90BC7446157AB13557E35D2DA9860C21 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8DFC01EB95973CF6FEC09274FF32E9E1 /* FontAwesome.otf */; };
+		9EA7F50C92AAA17E2D9D8221B17BF986 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC27FDFC2CB5C114995BEC84977C46A4 /* ConstraintItem.swift */; };
+		9F0E33DFC9F5F9A2B6354606D897536F /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B4BE21558E2B09FADE1B94B5F301CC /* ConstraintMaker.swift */; };
+		AA26F4EC8CC79170BD35362D63139329 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D7340C5FD039333BE30A8B580BC2E3 /* EdgeInsets.swift */; };
+		AED94F6FA6EAF07DBF93544C7EA0C453 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		B2FA3AAAE2F2167C1A1C80FF8AE1EA99 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89026078D89337E022CEEC7B2B6F8BB6 /* Debugging.swift */; };
+		B763D160B7FDFC673C0D91DC69FF0B08 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DEF21CB0B9191A1F4FB2C547D0AB8A /* ViewController+SnapKit.swift */; };
+		B7C35D2E5136469CE449E85CDF2365D2 /* FontAwesome.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B19166F5C018A51B6C111625ACF57DE0 /* FontAwesome.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92BBAE0903CB7F3A60EF9DA0A77AE7C /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C13AEEEAF801E5CECFD4E859A0922F2 /* Constraint.swift */; };
+		B959909743BAA0975BDF26AA08BED88C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		C01B3B78F3E9D759E03C01354DE29059 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850AF6FC5189E37CF45EA2A096E00515 /* LayoutConstraint.swift */; };
+		C1A1C30DE7CC53FE75B03F7B4D20D0F7 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D9668D926853414FD4974B8342FEC4 /* SnapKit.swift */; };
+		C8205AD8AD2B7165EAA759609F9C5C88 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C61090C013353B83B7271BD1EE52D1F /* Enum.swift */; };
+		CAAC437A91D0388546269D617740925B /* Pods-day4UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AF4B6E0DF7994CDC30D126EA17D51A /* Pods-day4UITests-dummy.m */; };
+		CEF25811044472F4A71B6C4F263A40D8 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0AF51645B3A962000C23932BECD627 /* ConstraintAttributes.swift */; };
+		F04EDFD2AE0A19A7FDEEAC2FE372F947 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40360EB2285676616021D42F91B02B9C /* View+SnapKit.swift */; };
+		FA1411E02FF60CBBE3FD67772DCEF276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B7E70A9A3D5FE170B2CCC8D33F40E86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1088253F42C36418734CF3D95E31B8AA;
+			remoteInfo = "FontAwesome.swift-FontAwesome.swift";
+		};
+		18B6EFC71CA14D060D2FD23A3588BA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E64D3E3A7AD1A87C822114B7473AE1E;
+			remoteInfo = FontAwesome.swift;
+		};
+		A3479E58646A7A8198BFEEF61734C107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE19D4E705BD1F96A837E430C95F548;
+			remoteInfo = SnapKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D684E490A655EA86FCD62D0464B5CD /* Pods_day4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		04B648D3AA76E6CAAD933F6361EC7796 /* Pods-day4Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0D7E26E28C887D1AED2318B49310A4B6 /* FontAwesome.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-prefix.pch"; sourceTree = "<group>"; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1932130A22BA49D32759D404A4DCE6B4 /* Pods-day4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C13AEEEAF801E5CECFD4E859A0922F2 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		1F21001B64DFD7A62C314E909E1529D3 /* Pods-day4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4.release.xcconfig"; sourceTree = "<group>"; };
+		20D7340C5FD039333BE30A8B580BC2E3 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		270EDED1E147121367C0F32F93D43218 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2884BE110D39946DDBF2D45F814B40E4 /* Pods-day4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FBEDB816521A087E7B65D45F025D075 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		304498DA5C28B7E27C5B0A7D7143B05E /* Pods_day4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B4BE21558E2B09FADE1B94B5F301CC /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39D9668D926853414FD4974B8342FEC4 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		40360EB2285676616021D42F91B02B9C /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		42AD876BDD1C05A79610BCB33B82B9F3 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		445AF5AD4EAB10392FA00BCE22A2EA7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F712EE99426C8D9536539682DBB152 /* ResourceBundle-FontAwesome.swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FontAwesome.swift-Info.plist"; sourceTree = "<group>"; };
+		4871097F3BAAE25CB65BC02B6EE0F283 /* Pods-day4UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-day4UITests-umbrella.h"; sourceTree = "<group>"; };
+		55DEF21CB0B9191A1F4FB2C547D0AB8A /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		573B085480775423CBC0BF7D9BB0EAED /* FontAwesome.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesome.swift-dummy.m"; sourceTree = "<group>"; };
+		63F7C771F78F4347903AE52021E1BF9F /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		663EA5D1074FE1C8BDA9945BC829A6EA /* Pods-day4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4.debug.xcconfig"; sourceTree = "<group>"; };
+		6C04FCEBDACA566BFE1B0F3327F21C1C /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		6C051190D90CA39D90DBC96BB713DB74 /* Pods-day4Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-day4Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6ECE9F9A4AC4AB0080BC626761F79CE2 /* FontAwesome.swift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAwesome.swift.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		704D0806C07672DAAC842089464678F0 /* Pods-day4-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-day4-acknowledgements.plist"; sourceTree = "<group>"; };
+		72661786B1E55D0C09E252312C67E920 /* Pods-day4UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4UITests-frameworks.sh"; sourceTree = "<group>"; };
+		76A18BF8077260B11FF7F1500D09BD41 /* Pods-day4Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-day4Tests-dummy.m"; sourceTree = "<group>"; };
+		7F680BBE7F48DEA917E371D6FA49CCC0 /* Pods-day4-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4-resources.sh"; sourceTree = "<group>"; };
+		850AF6FC5189E37CF45EA2A096E00515 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		878678AFB92DA5CC73858047EFB91417 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		89026078D89337E022CEEC7B2B6F8BB6 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesome.swift.xcconfig; sourceTree = "<group>"; };
+		8C61090C013353B83B7271BD1EE52D1F /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = FontAwesome/Enum.swift; sourceTree = "<group>"; };
+		8DFC01EB95973CF6FEC09274FF32E9E1 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesome/FontAwesome.otf; sourceTree = "<group>"; };
+		8EA5E933808D786113B171C04DA07789 /* Pods-day4UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4UITests-resources.sh"; sourceTree = "<group>"; };
+		8FB50D6AE66922CB5D7B457A6684E64E /* Pods-day4-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-day4-acknowledgements.markdown"; sourceTree = "<group>"; };
+		911D9D3A4987CE3834CC79D9B3053B8A /* Pods-day4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-day4-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AAB51BDB4736598EBA6A6BE15F65F99 /* Pods-day4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4UITests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD960E99D2B41EAA1A01DF73DA04CA4 /* Pods-day4-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4-frameworks.sh"; sourceTree = "<group>"; };
+		A56BBEFE9F3FB10A2E90610EA35C0F9B /* Pods-day4Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-day4Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAFFAB0F358596E678F0DF4C2EE21720 /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19166F5C018A51B6C111625ACF57DE0 /* FontAwesome.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesome.swift-umbrella.h"; sourceTree = "<group>"; };
+		B1AF4B6E0DF7994CDC30D126EA17D51A /* Pods-day4UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-day4UITests-dummy.m"; sourceTree = "<group>"; };
+		B45D3DFC1F1FF533791CA738ED1FC51D /* FontAwesome.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesome.swift; path = FontAwesome/FontAwesome.swift; sourceTree = "<group>"; };
+		B45DEE4DBD34A786545C9169BC6C0A7C /* Pods-day4UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-day4UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9E661738FD7366C383D1A0141696320 /* Pods_day4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC27FDFC2CB5C114995BEC84977C46A4 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		BDC13500A54BAAB1D24BA550E2ADE654 /* Pods-day4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-day4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE9082FDC5717600263198701918EAB2 /* Pods-day4UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-day4UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFD4D6B84B09B8993F4A40D5BFD9C777 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DA72D4CE4597C6558DF753A568201B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43B5FD4B7AC41203AE6D4AB20051855 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		C72E6B81193713AF39222C0BC0D6AC83 /* FontAwesome.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesome.swift.modulemap; sourceTree = "<group>"; };
+		CBD341F32599E898DA1E9B8F8E171899 /* Pods-day4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-day4-dummy.m"; sourceTree = "<group>"; };
+		CE4FBE1D2F419C7BA582BB1F733BDAA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9C990B130B603709938799116D79D3 /* Pods-day4Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-day4Tests.modulemap"; sourceTree = "<group>"; };
+		D3DB65F2FA75C3BEDAF4893434E420D4 /* Pods-day4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-day4.modulemap"; sourceTree = "<group>"; };
+		E183E169FED0C11F72B300BC7A8968A8 /* Pods-day4UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-day4UITests.modulemap"; sourceTree = "<group>"; };
+		E3D212C00FA66463FD5FB483B97E51D8 /* Pods-day4Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-day4Tests-resources.sh"; sourceTree = "<group>"; };
+		EA0AF51645B3A962000C23932BECD627 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		ECAAAA426188E6FEE04E5BE44595566A /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		F3FDD2C1618CDBB436C220B00313DBE9 /* Pods-day4Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-day4Tests-umbrella.h"; sourceTree = "<group>"; };
+		F6F6A00A0DBA65B0E6B3AB9088F7F172 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B82D346D116C75A35B50821A8FEFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5430F07F99B4BFAD07F42F431B4875D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5B291C2C123C1076B19050D45CBB72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB991B74DC7E22885BA45CC19A274D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353BE95645649B688456562FB5648E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA96ADEE8B32F2B9F554C84B9A491919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED94F6FA6EAF07DBF93544C7EA0C453 /* CoreText.framework in Frameworks */,
+				06FFE113B8E333BF74680FD61C72883E /* Foundation.framework in Frameworks */,
+				FA1411E02FF60CBBE3FD67772DCEF276 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26196B147F8FEDCF43DD0052F24D7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406D2FE74595036EA3ED23C7322A2287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F906BC7C3D966015ADFBFA2F10A946CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B959909743BAA0975BDF26AA08BED88C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EC90AF8D9CCE80BF18B0B669AB403E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB68E32A228B3A9814BD998F5CD1A1D /* Pods-day4 */,
+				0719064E5382B8DFE8209755262F744E /* Pods-day4Tests */,
+				169DF74440B2156AAC986BEF3EFB421B /* Pods-day4UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0719064E5382B8DFE8209755262F744E /* Pods-day4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				445AF5AD4EAB10392FA00BCE22A2EA7F /* Info.plist */,
+				CF9C990B130B603709938799116D79D3 /* Pods-day4Tests.modulemap */,
+				A56BBEFE9F3FB10A2E90610EA35C0F9B /* Pods-day4Tests-acknowledgements.markdown */,
+				6C051190D90CA39D90DBC96BB713DB74 /* Pods-day4Tests-acknowledgements.plist */,
+				76A18BF8077260B11FF7F1500D09BD41 /* Pods-day4Tests-dummy.m */,
+				04B648D3AA76E6CAAD933F6361EC7796 /* Pods-day4Tests-frameworks.sh */,
+				E3D212C00FA66463FD5FB483B97E51D8 /* Pods-day4Tests-resources.sh */,
+				F3FDD2C1618CDBB436C220B00313DBE9 /* Pods-day4Tests-umbrella.h */,
+				2884BE110D39946DDBF2D45F814B40E4 /* Pods-day4Tests.debug.xcconfig */,
+				BDC13500A54BAAB1D24BA550E2ADE654 /* Pods-day4Tests.release.xcconfig */,
+			);
+			name = "Pods-day4Tests";
+			path = "Target Support Files/Pods-day4Tests";
+			sourceTree = "<group>";
+		};
+		10B5ADD1EC8BEF5FD2C988EBA30F3E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECE9F9A4AC4AB0080BC626761F79CE2 /* FontAwesome.swift.bundle */,
+				AAFFAB0F358596E678F0DF4C2EE21720 /* FontAwesome_swift.framework */,
+				304498DA5C28B7E27C5B0A7D7143B05E /* Pods_day4.framework */,
+				B9E661738FD7366C383D1A0141696320 /* Pods_day4Tests.framework */,
+				00D684E490A655EA86FCD62D0464B5CD /* Pods_day4UITests.framework */,
+				42AD876BDD1C05A79610BCB33B82B9F3 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		169DF74440B2156AAC986BEF3EFB421B /* Pods-day4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				270EDED1E147121367C0F32F93D43218 /* Info.plist */,
+				E183E169FED0C11F72B300BC7A8968A8 /* Pods-day4UITests.modulemap */,
+				BE9082FDC5717600263198701918EAB2 /* Pods-day4UITests-acknowledgements.markdown */,
+				B45DEE4DBD34A786545C9169BC6C0A7C /* Pods-day4UITests-acknowledgements.plist */,
+				B1AF4B6E0DF7994CDC30D126EA17D51A /* Pods-day4UITests-dummy.m */,
+				72661786B1E55D0C09E252312C67E920 /* Pods-day4UITests-frameworks.sh */,
+				8EA5E933808D786113B171C04DA07789 /* Pods-day4UITests-resources.sh */,
+				4871097F3BAAE25CB65BC02B6EE0F283 /* Pods-day4UITests-umbrella.h */,
+				1932130A22BA49D32759D404A4DCE6B4 /* Pods-day4UITests.debug.xcconfig */,
+				9AAB51BDB4736598EBA6A6BE15F65F99 /* Pods-day4UITests.release.xcconfig */,
+			);
+			name = "Pods-day4UITests";
+			path = "Target Support Files/Pods-day4UITests";
+			sourceTree = "<group>";
+		};
+		22FA016EE4ACC8F840D7C354F2BE8CA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C72E6B81193713AF39222C0BC0D6AC83 /* FontAwesome.swift.modulemap */,
+				8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */,
+				573B085480775423CBC0BF7D9BB0EAED /* FontAwesome.swift-dummy.m */,
+				0D7E26E28C887D1AED2318B49310A4B6 /* FontAwesome.swift-prefix.pch */,
+				B19166F5C018A51B6C111625ACF57DE0 /* FontAwesome.swift-umbrella.h */,
+				BFD4D6B84B09B8993F4A40D5BFD9C777 /* Info.plist */,
+				45F712EE99426C8D9536539682DBB152 /* ResourceBundle-FontAwesome.swift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesome.swift";
+			sourceTree = "<group>";
+		};
+		339B8DEB130582707BBFF07DC6FA60EF /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				1C13AEEEAF801E5CECFD4E859A0922F2 /* Constraint.swift */,
+				EA0AF51645B3A962000C23932BECD627 /* ConstraintAttributes.swift */,
+				878678AFB92DA5CC73858047EFB91417 /* ConstraintDescription.swift */,
+				BC27FDFC2CB5C114995BEC84977C46A4 /* ConstraintItem.swift */,
+				35B4BE21558E2B09FADE1B94B5F301CC /* ConstraintMaker.swift */,
+				63F7C771F78F4347903AE52021E1BF9F /* ConstraintRelation.swift */,
+				89026078D89337E022CEEC7B2B6F8BB6 /* Debugging.swift */,
+				20D7340C5FD039333BE30A8B580BC2E3 /* EdgeInsets.swift */,
+				850AF6FC5189E37CF45EA2A096E00515 /* LayoutConstraint.swift */,
+				39D9668D926853414FD4974B8342FEC4 /* SnapKit.swift */,
+				40360EB2285676616021D42F91B02B9C /* View+SnapKit.swift */,
+				55DEF21CB0B9191A1F4FB2C547D0AB8A /* ViewController+SnapKit.swift */,
+				5A338FAF94E83EC8DFF03F56A3D73FFF /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		527750AF1E08377BBFD740E9E11CCA6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E2281FFC5496D52421B225CC2B06C /* FontAwesome.swift */,
+				339B8DEB130582707BBFF07DC6FA60EF /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A338FAF94E83EC8DFF03F56A3D73FFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4FBE1D2F419C7BA582BB1F733BDAA0 /* Info.plist */,
+				ECAAAA426188E6FEE04E5BE44595566A /* SnapKit.modulemap */,
+				2FBEDB816521A087E7B65D45F025D075 /* SnapKit.xcconfig */,
+				C43B5FD4B7AC41203AE6D4AB20051855 /* SnapKit-dummy.m */,
+				6C04FCEBDACA566BFE1B0F3327F21C1C /* SnapKit-prefix.pch */,
+				F6F6A00A0DBA65B0E6B3AB9088F7F172 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				527750AF1E08377BBFD740E9E11CCA6C /* Pods */,
+				10B5ADD1EC8BEF5FD2C988EBA30F3E06 /* Products */,
+				04EC90AF8D9CCE80BF18B0B669AB403E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB68E32A228B3A9814BD998F5CD1A1D /* Pods-day4 */ = {
+			isa = PBXGroup;
+			children = (
+				C2DA72D4CE4597C6558DF753A568201B /* Info.plist */,
+				D3DB65F2FA75C3BEDAF4893434E420D4 /* Pods-day4.modulemap */,
+				8FB50D6AE66922CB5D7B457A6684E64E /* Pods-day4-acknowledgements.markdown */,
+				704D0806C07672DAAC842089464678F0 /* Pods-day4-acknowledgements.plist */,
+				CBD341F32599E898DA1E9B8F8E171899 /* Pods-day4-dummy.m */,
+				9FD960E99D2B41EAA1A01DF73DA04CA4 /* Pods-day4-frameworks.sh */,
+				7F680BBE7F48DEA917E371D6FA49CCC0 /* Pods-day4-resources.sh */,
+				911D9D3A4987CE3834CC79D9B3053B8A /* Pods-day4-umbrella.h */,
+				663EA5D1074FE1C8BDA9945BC829A6EA /* Pods-day4.debug.xcconfig */,
+				1F21001B64DFD7A62C314E909E1529D3 /* Pods-day4.release.xcconfig */,
+			);
+			name = "Pods-day4";
+			path = "Target Support Files/Pods-day4";
+			sourceTree = "<group>";
+		};
+		D932306038C945F0C12A803925D00210 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC01EB95973CF6FEC09274FF32E9E1 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF4E2281FFC5496D52421B225CC2B06C /* FontAwesome.swift */ = {
+			isa = PBXGroup;
+			children = (
+				8C61090C013353B83B7271BD1EE52D1F /* Enum.swift */,
+				B45D3DFC1F1FF533791CA738ED1FC51D /* FontAwesome.swift */,
+				D932306038C945F0C12A803925D00210 /* Resources */,
+				22FA016EE4ACC8F840D7C354F2BE8CA4 /* Support Files */,
+			);
+			path = FontAwesome.swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		441BC042C21CA66F4F52C348E93C5C69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB56E2421BC6086EDC144B3E15B3890 /* Pods-day4-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		623E119AA50B01756FDEB59B0DB7F488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C35D2E5136469CE449E85CDF2365D2 /* FontAwesome.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98058663C7DC790C933A38BEEED59CA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82932E85B51AEAD8C9F0447E769FC3FE /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C984A577E2BEBAA5350FE2A57F424C31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB07B30F3E7613419836ED39E91AE28 /* Pods-day4UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC9BEC8AD0B2BB72C58D2869F330E100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1835867AA91C89D7800B5F6976AD3A71 /* Pods-day4Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		100F87ED0DDA9FEA524AEC8897A08645 /* Pods-day4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C89CC2F6C7C651288AB8A9C68C1E549 /* Build configuration list for PBXNativeTarget "Pods-day4" */;
+			buildPhases = (
+				DE8A7066DB9A6C85850B8DB11DF839B2 /* Sources */,
+				29B82D346D116C75A35B50821A8FEFB8 /* Frameworks */,
+				441BC042C21CA66F4F52C348E93C5C69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677CA629AD0A98371D7B44C85FA2D618 /* PBXTargetDependency */,
+				707B71AB30A76F1F24CABF70AD8FDC90 /* PBXTargetDependency */,
+			);
+			name = "Pods-day4";
+			productName = "Pods-day4";
+			productReference = 304498DA5C28B7E27C5B0A7D7143B05E /* Pods_day4.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1088253F42C36418734CF3D95E31B8AA /* FontAwesome.swift-FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F68A89A4B84796EAB1C4FCDFBA012C8 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */;
+			buildPhases = (
+				824F1376AAD08AD5F9F87BCA12A4B7BA /* Sources */,
+				4C5B291C2C123C1076B19050D45CBB72 /* Frameworks */,
+				1EC9C47345FEF120116120408A8FDAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontAwesome.swift-FontAwesome.swift";
+			productName = "FontAwesome.swift-FontAwesome.swift";
+			productReference = 6ECE9F9A4AC4AB0080BC626761F79CE2 /* FontAwesome.swift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		117D9547C1F2A5FC6BA5D21B87D5352A /* Pods-day4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B653A4F75353D87911D7C030243AD2E0 /* Build configuration list for PBXNativeTarget "Pods-day4UITests" */;
+			buildPhases = (
+				A7F4F13213FAF6297C9C8B20B8DDE1A7 /* Sources */,
+				5FB991B74DC7E22885BA45CC19A274D6 /* Frameworks */,
+				C984A577E2BEBAA5350FE2A57F424C31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-day4UITests";
+			productName = "Pods-day4UITests";
+			productReference = 00D684E490A655EA86FCD62D0464B5CD /* Pods_day4UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		167EA57DAA59517E4B412AF8EDE528AE /* Pods-day4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E3F39EB65A1D03D254EA48F3D85CDA /* Build configuration list for PBXNativeTarget "Pods-day4Tests" */;
+			buildPhases = (
+				D3DD0808449CF52BD84712E563BA4A06 /* Sources */,
+				E26196B147F8FEDCF43DD0052F24D7A1 /* Frameworks */,
+				EC9BEC8AD0B2BB72C58D2869F330E100 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-day4Tests";
+			productName = "Pods-day4Tests";
+			productReference = B9E661738FD7366C383D1A0141696320 /* Pods_day4Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AE19D4E705BD1F96A837E430C95F548 /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDA1A69DD0B3E5E15C9E11597431DC7F /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				1330747D1323C248ED2B851E22C82FB0 /* Sources */,
+				F906BC7C3D966015ADFBFA2F10A946CA /* Frameworks */,
+				98058663C7DC790C933A38BEEED59CA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 42AD876BDD1C05A79610BCB33B82B9F3 /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E64D3E3A7AD1A87C822114B7473AE1E /* FontAwesome.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DD6A31523A0353F81D467B95CBE328C /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */;
+			buildPhases = (
+				1E19681EDF0AC797D8FDB355395CDDA8 /* Sources */,
+				BA96ADEE8B32F2B9F554C84B9A491919 /* Frameworks */,
+				7EA50C50C507B00726F9A4AF0D8AEAAE /* Resources */,
+				623E119AA50B01756FDEB59B0DB7F488 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6592D2590DC0581E00EDE10AAA6191 /* PBXTargetDependency */,
+			);
+			name = FontAwesome.swift;
+			productName = FontAwesome.swift;
+			productReference = AAFFAB0F358596E678F0DF4C2EE21720 /* FontAwesome_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 10B5ADD1EC8BEF5FD2C988EBA30F3E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E64D3E3A7AD1A87C822114B7473AE1E /* FontAwesome.swift */,
+				1088253F42C36418734CF3D95E31B8AA /* FontAwesome.swift-FontAwesome.swift */,
+				100F87ED0DDA9FEA524AEC8897A08645 /* Pods-day4 */,
+				167EA57DAA59517E4B412AF8EDE528AE /* Pods-day4Tests */,
+				117D9547C1F2A5FC6BA5D21B87D5352A /* Pods-day4UITests */,
+				9AE19D4E705BD1F96A837E430C95F548 /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EC9C47345FEF120116120408A8FDAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BC7446157AB13557E35D2DA9860C21 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA50C50C507B00726F9A4AF0D8AEAAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A706C24B6C49B82FA582D8A83BA8521 /* FontAwesome.swift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1330747D1323C248ED2B851E22C82FB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92BBAE0903CB7F3A60EF9DA0A77AE7C /* Constraint.swift in Sources */,
+				CEF25811044472F4A71B6C4F263A40D8 /* ConstraintAttributes.swift in Sources */,
+				676391FE342116754B9F940E9EF8C5CA /* ConstraintDescription.swift in Sources */,
+				9EA7F50C92AAA17E2D9D8221B17BF986 /* ConstraintItem.swift in Sources */,
+				9F0E33DFC9F5F9A2B6354606D897536F /* ConstraintMaker.swift in Sources */,
+				85FA24C95F14AF31517EC46E88FA98C9 /* ConstraintRelation.swift in Sources */,
+				B2FA3AAAE2F2167C1A1C80FF8AE1EA99 /* Debugging.swift in Sources */,
+				AA26F4EC8CC79170BD35362D63139329 /* EdgeInsets.swift in Sources */,
+				C01B3B78F3E9D759E03C01354DE29059 /* LayoutConstraint.swift in Sources */,
+				052F14843D27CBEE7866176CD826110D /* SnapKit-dummy.m in Sources */,
+				C1A1C30DE7CC53FE75B03F7B4D20D0F7 /* SnapKit.swift in Sources */,
+				F04EDFD2AE0A19A7FDEEAC2FE372F947 /* View+SnapKit.swift in Sources */,
+				B763D160B7FDFC673C0D91DC69FF0B08 /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E19681EDF0AC797D8FDB355395CDDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8205AD8AD2B7165EAA759609F9C5C88 /* Enum.swift in Sources */,
+				09A4729224EC35B8B5572E1895466E57 /* FontAwesome.swift in Sources */,
+				68FE7FA5D4B26609C54A620A749E16E6 /* FontAwesome.swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824F1376AAD08AD5F9F87BCA12A4B7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F4F13213FAF6297C9C8B20B8DDE1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAAC437A91D0388546269D617740925B /* Pods-day4UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DD0808449CF52BD84712E563BA4A06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041DA33F5CB39096E4E389B2BDCB703F /* Pods-day4Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8A7066DB9A6C85850B8DB11DF839B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4B0BD0CF07F7C0BA322EA11B54D01A /* Pods-day4-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677CA629AD0A98371D7B44C85FA2D618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesome.swift;
+			target = 9E64D3E3A7AD1A87C822114B7473AE1E /* FontAwesome.swift */;
+			targetProxy = 18B6EFC71CA14D060D2FD23A3588BA25 /* PBXContainerItemProxy */;
+		};
+		707B71AB30A76F1F24CABF70AD8FDC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 9AE19D4E705BD1F96A837E430C95F548 /* SnapKit */;
+			targetProxy = A3479E58646A7A8198BFEEF61734C107 /* PBXContainerItemProxy */;
+		};
+		9F6592D2590DC0581E00EDE10AAA6191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FontAwesome.swift-FontAwesome.swift";
+			target = 1088253F42C36418734CF3D95E31B8AA /* FontAwesome.swift-FontAwesome.swift */;
+			targetProxy = 0B7E70A9A3D5FE170B2CCC8D33F40E86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		256C2CB4EE9130A35669C55550B24A22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F21001B64DFD7A62C314E909E1529D3 /* Pods-day4.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4/Pods-day4.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E4141F7ACD9EDCE5A06BBAC0DFA0FBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2884BE110D39946DDBF2D45F814B40E4 /* Pods-day4Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4Tests/Pods-day4Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52C6BAB4B036B1F9D38C2762408A9F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77D24B6AED2F2551AA6ABEE706D9C040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83FF0814198DB3F986FF696DD6789664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBEDB816521A087E7B65D45F025D075 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8402BD46C635C737475B46E3B00136C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesome.swift/FontAwesome.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesome.swift/FontAwesome.swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesome_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C73790F529EB121A4E353F2961B2231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC13500A54BAAB1D24BA550E2ADE654 /* Pods-day4Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4Tests/Pods-day4Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CCD6BC1A583BAE6557501C7E91F298B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFBA845DF731D465152AAD953138914 /* FontAwesome.swift.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FontAwesome.swift";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FontAwesome.swift/ResourceBundle-FontAwesome.swift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FontAwesome.swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AA493484BF90E019F8552DAEE4062A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663EA5D1074FE1C8BDA9945BC829A6EA /* Pods-day4.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4/Pods-day4.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBF8FC0241DFD8101E243991DE3988B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAB51BDB4736598EBA6A6BE15F65F99 /* Pods-day4UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4UITests/Pods-day4UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8A06CE2D8CA66793B56D7A99625815A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1932130A22BA49D32759D404A4DCE6B4 /* Pods-day4UITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-day4UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-day4UITests/Pods-day4UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_day4UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E985FD5C6F3EA306B9E76A13020A02F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBEDB816521A087E7B65D45F025D075 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C89CC2F6C7C651288AB8A9C68C1E549 /* Build configuration list for PBXNativeTarget "Pods-day4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA493484BF90E019F8552DAEE4062A67 /* Debug */,
+				256C2CB4EE9130A35669C55550B24A22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DD6A31523A0353F81D467B95CBE328C /* Build configuration list for PBXNativeTarget "FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D24B6AED2F2551AA6ABEE706D9C040 /* Debug */,
+				8402BD46C635C737475B46E3B00136C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F68A89A4B84796EAB1C4FCDFBA012C8 /* Build configuration list for PBXNativeTarget "FontAwesome.swift-FontAwesome.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C6BAB4B036B1F9D38C2762408A9F96 /* Debug */,
+				8CCD6BC1A583BAE6557501C7E91F298B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E3F39EB65A1D03D254EA48F3D85CDA /* Build configuration list for PBXNativeTarget "Pods-day4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4141F7ACD9EDCE5A06BBAC0DFA0FBA /* Debug */,
+				8C73790F529EB121A4E353F2961B2231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B653A4F75353D87911D7C030243AD2E0 /* Build configuration list for PBXNativeTarget "Pods-day4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A06CE2D8CA66793B56D7A99625815A /* Debug */,
+				BBF8FC0241DFD8101E243991DE3988B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA1A69DD0B3E5E15C9E11597431DC7F /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E985FD5C6F3EA306B9E76A13020A02F4 /* Debug */,
+				83FF0814198DB3F986FF696DD6789664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

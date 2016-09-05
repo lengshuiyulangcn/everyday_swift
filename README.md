@@ -13,3 +13,7 @@ quick, dirty, no storybord
 ### day3
 
 * UINavigationController 
+
+### day4
+
+* UITabBarController && FontAwesome.swift 
