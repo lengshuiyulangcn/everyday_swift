@@ -1,0 +1,21 @@
+PODS:
+  - FontAwesome.swift (0.7.3)
+  - OAuthSwift (0.5.2)
+  - SnapKit (0.21.1)
+  - SwiftyUserDefaults (2.2.0)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - OAuthSwift (~> 0.5.0)
+  - SnapKit
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: f694fe0f667d6d3390b5919cdb0556a27b75d427
+  OAuthSwift: 1ef042d4362e755e24a78f158d817245641a5d24
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  SwiftyUserDefaults: e7c8197a9d4068702e7f2406a968cae413b8de27
+
+PODFILE CHECKSUM: a17a811b708eecc0f6a7353e487a46e3ede03fd3
+
+COCOAPODS: 1.0.1
