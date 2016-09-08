@@ -26,9 +26,15 @@ quick, dirty, no storybord
 
 * OAuthSwift with FacebookLogin
 
+### day7
+
+* RSS reader && UIWebViewController 
+
 ### references
 1. [Swiftで地図アプリを実装する](http://qiita.com/Takeshi_Akutsu/items/12dbb29bcf0e0c49e28c)
 
 2. [CalloutAccessoryViewにボタンを追加する](http://qiita.com/arthur87/items/e5978f02e2d575c9cbf7) 
 
 3. [facebook schema redirect for IOS](https://github.com/dongri/oauthswift.herokuapp.com) 
+
+3. [swiftでwebViewアプリを作ってみた](http://qiita.com/drobune/items/17295b2de6663b56785a) 
