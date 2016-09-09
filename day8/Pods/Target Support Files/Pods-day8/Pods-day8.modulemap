@@ -1,0 +1,6 @@
+framework module Pods_day8 {
+  umbrella header "Pods-day8-umbrella.h"
+
+  export *
+  module * { export * }
+}
