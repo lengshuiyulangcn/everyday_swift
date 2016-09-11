@@ -34,6 +34,10 @@ quick, dirty, no storybord
 
 * camera 
 
+### day9
+
+* Scroll Down to Update Table Datasource and show a loading overlay
+  
 ### references
 1. [Swiftで地図アプリを実装する](http://qiita.com/Takeshi_Akutsu/items/12dbb29bcf0e0c49e28c)
 

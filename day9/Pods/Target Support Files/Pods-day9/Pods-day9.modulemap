@@ -1,0 +1,6 @@
+framework module Pods_day9 {
+  umbrella header "Pods-day9-umbrella.h"
+
+  export *
+  module * { export * }
+}
