@@ -1,0 +1,21 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'day11' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod "Koloda"
+
+  # Pods for day11
+
+  target 'day11Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'day11UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "66A8AD25EEED30E3F92B92965A5FA64EB16F1DBB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "66A8AD25EEED30E3F92B92965A5FA64EB16F1DBB" : 0,
+    "231114403EF15DED09DE9577FA23E6D43184B00E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "256A53ED-BE01-4F4A-92E2-7D4B39F71CB0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "66A8AD25EEED30E3F92B92965A5FA64EB16F1DBB" : "every_day_swift\/",
+    "231114403EF15DED09DE9577FA23E6D43184B00E" : "..\/..\/Koloda"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "day11",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "day11\/day11.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yalantis\/Koloda",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "231114403EF15DED09DE9577FA23E6D43184B00E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lengshuiyulangcn\/everyday_swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "66A8AD25EEED30E3F92B92965A5FA64EB16F1DBB"
+    }
+  ]
+}

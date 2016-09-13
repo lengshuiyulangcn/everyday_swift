@@ -1,0 +1,6 @@
+framework module Pods_day11Tests {
+  umbrella header "Pods-day11Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
