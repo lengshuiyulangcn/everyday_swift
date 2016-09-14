@@ -45,6 +45,11 @@ quick, dirty, no storybord
 ### day11
 
 * Tinder like swipe 
+
+### day12
+
+* Animation part1 
+
 ### references
 1. [Swiftで地図アプリを実装する](http://qiita.com/Takeshi_Akutsu/items/12dbb29bcf0e0c49e28c)
 
